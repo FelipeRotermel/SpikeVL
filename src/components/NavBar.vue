@@ -1,0 +1,20 @@
+<script>
+  export default{}
+</script>
+<template>
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <div class="collapse navbar-collapse justify-content-left" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a href="#"><img src="@/assets/logo.png" width="50px" alt=""></a>
+                        <a href="#"><h4>Home</h4></a>
+                        <a href="#"><h4>Sobre o Valorant</h4></a>
+                        <a href="#"><h4>Agentes</h4></a>
+                        <a href="#"><h4>Login</h4></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+</template>
