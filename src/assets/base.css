@@ -11,9 +11,14 @@ html {
 /* NavBar */
 
 .navbar {
-  background-color: #191a1f;
+  background-color: transparent;
   letter-spacing: 0.025em;
-  transition: background-color 0.2s linear;
+  transition: background-color 0.1s linear;
+}
+
+.navbar.solid {
+  background-color: #191a1f;
+  transition: background-color 0.7s ease 0s;
 }
 
 .navbar-nav a {
@@ -35,4 +40,31 @@ html {
 
 main {
   position: relative;
+}
+
+.carousel-caption{
+  top: 30%;
+}
+
+.carousel-caption h4{
+  font-size: 50px;
+  animation: neonAnim 1.5s alternate-reverse infinite;
+}
+.carousel-caption h1{
+  font-size: 150px;
+  animation: neonAnim 1.5s alternate-reverse infinite;
+
+}
+
+@keyframes neonAnim {
+  from {
+      text-shadow:
+        0 0 18px rgba(255, 255, 255, .7),
+        0 0 48px rgba(255, 255, 255, .7),
+        0 0 108px rgba(255, 255, 255, .7);
+    }
+    to {
+      text-shadow:
+        0
+    }
 }
