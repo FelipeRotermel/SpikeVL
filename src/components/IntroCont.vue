@@ -8,7 +8,7 @@
                 <h1 class="main-title float-start"><strong>JOGO COMPETITIVO <br> TÁTICO 5x5</strong></h1>
             </div>
             <div class="col-md-6 about-cont about-text">
-                <h3 class="about-title">DESAFIE SEUS LIMITES</h3>
+                <h3 class="about-title"><strong>DESAFIE SEUS LIMITES</strong></h3>
                 <p>
                     Misture o seu estilo e experiência em um 
                     cenário global e competitivo. Você terá 
@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="col-md-6 about-cont">
-                <img class="img-fluid" src="https://c.tenor.com/lTn_Gj0ljzYAAAAd/jett-valorant.gif" alt="">
+                <img class="img-fluid" id="video" src="https://c.tenor.com/lTn_Gj0ljzYAAAAd/jett-valorant.gif" alt="">
             </div>
         </div>
     </div>
