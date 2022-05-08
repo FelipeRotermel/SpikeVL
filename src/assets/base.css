@@ -110,21 +110,53 @@ main {
   padding-bottom: 100px;
 }
 
-#main-text-agentes h1 img{
+#container-agentes2{
+  background-image: linear-gradient(180deg ,#ffffff, #c5c5c5);
+  padding-bottom: 100px;
+}
+
+#col-agentes {
+  transition: 0.25s ease-in-out;
+}
+
+#col-agentes:hover {
+  transform: scale(1.2);
+}
+
+#col-agentes label h1 img{
   margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#col-agentes label h2 {
+  cursor: pointer;
+  margin-top: 30px;
 }
 
 .col-sm img {
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
-.col-sm {
+#col-sm1, #col-sm2 {
   cursor: pointer;
   transition: 0.5s;
   padding-bottom: 20px;
 }
 
-.col-sm:hover {
+#col-sm1:hover, #col-sm2:hover {
   transform: scale(1.1);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(87, 87, 87, 0.25) 0px 30px 60px -12px inset, rgba(255, 255, 255, 0.3) 0px 18px 36px -18px inset;
+  background-color: #191a1f;
+}
+
+input {
+  display: none;
+}
+
+.row-1, .row-2 {
+  display: none;
+}
+
+input:checked + .row-1, input:checked + .row-2 {
+  display: contents;
 }
