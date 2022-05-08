@@ -3,6 +3,7 @@
 </script>
 <template>
     <div class="row row-2">
+        <h1 class="text-center bg-black">INICIADORES</h1>
         <div class="col-sm text-center" id="col-sm2">
             <h3>KAY/O</h3>
             <img src="@/img/kayo.png" alt="">

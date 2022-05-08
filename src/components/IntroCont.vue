@@ -2,7 +2,7 @@
   export default{}
 </script>
 <template>
-    <div class="container">
+    <div class="container" id="IntroCont">
         <div class="row">
             <div class="col-12">
                 <h1 class="main-title float-start"><strong>JOGO COMPETITIVO <br> TÁTICO 5x5</strong></h1>

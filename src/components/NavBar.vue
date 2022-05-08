@@ -8,9 +8,10 @@
                 <div class="collapse navbar-collapse justify-content-left" id="navbar-links">
                     <div class="navbar-nav">
                         <a href="#"><img src="@/assets/logo.png" width="50px" alt=""></a>
+                        <a href="#"><h3>SpikeVL</h3></a>
                         <a href="#"><h4>Home</h4></a>
-                        <a href="#"><h4>Sobre o Valorant</h4></a>
-                        <a href="#"><h4>Agentes</h4></a>
+                        <a href="#IntroCont"><h4>Sobre o Valorant</h4></a>
+                        <a href="#container-agentes"><h4>Agentes</h4></a>
                         <a href="#"><h4>Login</h4></a>
                     </div>
                 </div>
