@@ -5,6 +5,10 @@ html {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container-fluid {
   padding: 0;
 }
@@ -154,15 +158,15 @@ input {
   display: none;
 }
 
-.row-1 h1, .row-2 h1 {
+.row-1 h1, .row-2 h1, .row-3 h1, .row-4 h1 {
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
-.row-1, .row-2 {
+.row-1, .row-2, .row-3, .row-4{
   display: none;
 }
 
-input:checked + .row-1, input:checked + .row-2 {
+#item-1:checked + .row-1, #item-2:checked + .row-2, #item-3:checked + .row-3, #item-4:checked + .row-4 {
   display: contents;
 }
