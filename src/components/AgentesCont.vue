@@ -3,8 +3,9 @@
   import AgentesIniciadores from "@/components/agentes/AgentesIniciadores.vue"
   import AgentesControladores from "@/components/agentes/AgentesControladores.vue"
   import AgentesSentinelas from "@/components/agentes/AgentesSentinelas.vue"
+  import AgentesPadrao from "@/components/agentes/AgentesPadrao.vue"
   export default{
-      components: { AgentesDuelistas, AgentesIniciadores, AgentesControladores, AgentesSentinelas }
+      components: { AgentesDuelistas, AgentesIniciadores, AgentesControladores, AgentesSentinelas, AgentesPadrao }
   }
 </script>
 <template>
@@ -39,8 +40,10 @@
             <AgentesIniciadores />
             <input type="radio" name="item" id="item-3">
             <AgentesControladores />
-            <input type="radio" name="item" id="item-4">
+            <input type="radio" name="item" id="item-4" >
             <AgentesSentinelas />
+            <input type="radio" name="item" id="item-5" checked="checked">
+            <AgentesPadrao />
         </div>
     </div>
 </template>
