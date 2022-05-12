@@ -4,7 +4,7 @@
 <template>
     <div class="row row-5">
             <div class="col-md-6 about-agentes">
-                <img class="img-fluid" id="video" src="@/img/agentes.png" alt="">
+                <img class="img-fluid float-end" id="video" src="@/img/agentes.png" alt="">
             </div>
             <div class="col-12 about-agentes about-text">
                 <h3 class="about-title"><strong>A CRIATIVIDADE É SUA MELHOR ARMA.</strong></h3>
