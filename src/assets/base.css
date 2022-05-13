@@ -187,3 +187,18 @@ input {
 #item-1:checked + .row-1, #item-2:checked + .row-2, #item-3:checked + .row-3, #item-4:checked + .row-4 {
   display: contents;
 }
+
+/* MapasCont */
+
+#carouselIntro, #carouselMapas {
+  text-shadow: 2px 2px 2px #000000;
+  padding: 10px;
+}
+
+#carouselIntro h2 {
+  font-size: 75px;
+}
+
+#carouselMapas h2 {
+  font-size: 50px;
+}
