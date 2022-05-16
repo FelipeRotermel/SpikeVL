@@ -1,7 +1,7 @@
 <script></script>
 <template>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
+  <div class="carousel-inner" id="MapasCont">
     <div class="carousel-item active">
       <img src="@/img/mapasbg.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block" id="carouselIntro">
