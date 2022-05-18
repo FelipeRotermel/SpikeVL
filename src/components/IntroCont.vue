@@ -20,7 +20,7 @@
                     Ranque, além da Disputa da Spike e do Mata-Mata!
                 </p>
                 <div class="col text-center">
-                    <a href="#container-agentes"><button class="btn"><h4>AGENTES</h4></button></a>
+                    <a href="#container-agentes"><button class="btn" id="btnagentes"><h4>AGENTES</h4></button></a>
                 </div>
             </div>
             <div class="col-md-6 about-cont">

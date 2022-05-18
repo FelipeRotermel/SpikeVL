@@ -97,17 +97,17 @@ main {
   text-align: justify;
 }
 
-.btn {
+#btnagentes {
   background-color: #ff4654;
   border-radius: 0;
   width: 100%;
 }
 
-.btn:hover {
+#btnagentes:hover {
   background-color: #191a1f;
 }
 
-.btn h4 {
+#btnagentes h4 {
   margin-top: 5px;
   color: white;
 }
@@ -250,4 +250,15 @@ main {
 
 #registrar:checked + #registrarcont, #login:checked + #logincont {
   display: contents;
+}
+
+/* FooterCont */
+
+#icons {
+  padding-bottom: 10px;
+  margin: 10px;
+}
+
+#footerbg {
+  background-color: #191a1f;
 }
