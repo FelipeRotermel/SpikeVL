@@ -167,7 +167,7 @@ main {
   margin-top: 100px;
 }
 
-input {
+#item-1, #item-2, #item-3, #item-4, #item-5 {
   display: none;
 }
 
@@ -205,3 +205,49 @@ input {
 
 /* Login */
 
+#loginbg {
+  animation: backbg 2s infinite ease;
+}
+
+@keyframes backbg {
+  0%{
+    background-image: url(@/img/loginbg2.png);
+  }
+
+  50%{
+    background-image: url(@/img/loginbg1.png);
+  }
+
+  100%{
+    background-image: url(@/img/loginbg2.png);
+  }
+}
+
+#conta, #senha {
+  background-color: transparent;
+}
+
+#loginform, #registrarform {
+  border: solid 1px #ffffff;
+  padding: 3px;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+#loginform:hover, #registrarform:hover {
+  transform: scale(1.1);
+}
+
+#registrar, #login {
+  display: none;
+}
+
+#registrarcont, #logincont {
+  display: none;
+}
+
+#registrar:checked + #registrarcont, #login:checked + #logincont {
+  display: contents;
+}

@@ -13,7 +13,7 @@
                         <a href="#IntroCont"><h4>Sobre o Valorant</h4></a>
                         <a href="#container-agentes"><h4>Agentes</h4></a>
                         <a href="#MapasCont"><h4>Mapas</h4></a>
-                        <router-link to="/about"><h4>Login</h4></router-link>
+                        <router-link to="/Login"><h4>Login</h4></router-link>
                         <router-view />
                     </div>
                 </div>
