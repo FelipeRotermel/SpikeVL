@@ -128,6 +128,11 @@ main {
   transform: scale(1.2);
 }
 
+#textoagentes {
+  margin-bottom: 40px;
+  margin-right: 10px;
+}
+
 #col-agentes label h1 img{
   margin-bottom: 20px;
   cursor: pointer;
@@ -150,8 +155,9 @@ main {
 
 #col-sm1:hover, #col-sm2:hover {
   transform: scale(1.1);
-  box-shadow: rgba(87, 87, 87, 0.25) 0px 30px 60px -12px inset, rgba(255, 255, 255, 0.3) 0px 18px 36px -18px inset;
   background-color: #191a1f;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .col-md-6 .img-fluid {
@@ -185,6 +191,14 @@ main {
 }
 
 #item-1:checked + .row-1, #item-2:checked + .row-2, #item-3:checked + .row-3, #item-4:checked + .row-4 {
+  display: contents;
+}
+
+#textobio {
+  display: none;
+}
+
+#col-sm1:hover #textobio, #col-sm2:hover #textobio {
   display: contents;
 }
 
