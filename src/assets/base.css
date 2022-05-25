@@ -266,6 +266,12 @@ main {
   display: contents;
 }
 
+#formlogin {
+  background-color: #191a1f9d;
+  border: solid 20px #191a1f04;
+  border-radius: 5px;
+}
+
 /* FooterCont */
 
 #icons {

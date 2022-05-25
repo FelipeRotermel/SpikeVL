@@ -17,6 +17,6 @@
             <router-view />
         </div>
         </div>
-        <button type="submit" class="btn btn-lg btn-block text-white">ENTRAR</button>
+        <button type="submit" id="btnagentes" class="btn btn-lg btn-block text-white">ENTRAR</button>
     </div>
 </template>

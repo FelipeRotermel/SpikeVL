@@ -17,6 +17,6 @@
         </div>
         <div class="d-flex justify-content-end align-items-center mb-4">
         </div>
-        <button type="submit" class="btn btn-lg btn-block text-white">CRIAR CONTA</button>
+        <button type="submit" id="btnagentes" class="btn btn-lg btn-block text-white">CRIAR CONTA</button>
     </div>
 </template>
